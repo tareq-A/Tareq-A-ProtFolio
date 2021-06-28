@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Web</name>
+    </assembly>
+    <members>
+        <member name="T:Web.Controllers.HomeController">
+            <summary>
+            Defines the <see cref="T:Web.Controllers.HomeController" />.
+            </summary>
+        </member>
+        <member name="F:Web.Controllers.HomeController._owner">
+            <summary>
+            Defines the _owner.
+            </summary>
+        </member>
+        <member name="F:Web.Controllers.HomeController._portfolio">
+            <summary>
+            Defines the _portfolio.
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.HomeController.#ctor(Core.Interfaces.IUnitOfWork{Core.Entities.Owner},Core.Interfaces.IUnitOfWork{Core.Entities.ProtfolioItem})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Web.Controllers.HomeController"/> class.
+            </summary>
+            <param name="owner">The owner<see cref="T:Core.Interfaces.IUnitOfWork`1"/>.</param>
+            <param name="portfolio">The portfolio<see cref="T:Core.Interfaces.IUnitOfWork`1"/>.</param>
+        </member>
+        <member name="M:Web.Controllers.HomeController.Index">
+            <summary>
+            The Index.
+            </summary>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.IActionResult"/>.</returns>
+        </member>
+        <member name="M:Web.Controllers.HomeController.About">
+            <summary>
+            The About.
+            </summary>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.IActionResult"/>.</returns>
+        </member>
+        <member name="T:Web.Program">
+            <summary>
+            Defines the <see cref="T:Web.Program" />.
+            </summary>
+        </member>
+        <member name="M:Web.Program.Main(System.String[])">
+            <summary>
+            The Main.
+            </summary>
+            <param name="args">The args<see cref="T:System.String"/>.</param>
+        </member>
+        <member name="M:Web.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            The CreateHostBuilder.
+            </summary>
+            <param name="args">The args<see cref="T:System.String"/>.</param>
+            <returns>The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder"/>.</returns>
+        </member>
+        <member name="T:Web.Startup">
+            <summary>
+            Defines the <see cref="T:Web.Startup" />.
+            </summary>
+        </member>
+        <member name="M:Web.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Web.Startup"/> class.
+            </summary>
+            <param name="configuration">The configuration<see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/>.</param>
+        </member>
+        <member name="P:Web.Startup.Configuration">
+            <summary>
+            Gets the Configuration.
+            </summary>
+        </member>
+        <member name="M:Web.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            The ConfigureServices.
+            </summary>
+            <param name="services">The services<see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/>.</param>
+        </member>
+        <member name="M:Web.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            The Configure.
+            </summary>
+            <param name="app">The app<see cref="T:Microsoft.AspNetCore.Builder.IApplicationBuilder"/>.</param>
+            <param name="env">The env<see cref="T:Microsoft.AspNetCore.Hosting.IWebHostEnvironment"/>.</param>
+        </member>
+        <member name="T:Web.ViewModels.HomeViewModel">
+            <summary>
+            Defines the <see cref="T:Web.ViewModels.HomeViewModel" />.
+            </summary>
+        </member>
+        <member name="P:Web.ViewModels.HomeViewModel.owner">
+            <summary>
+            Gets or sets the owner.
+            </summary>
+        </member>
+        <member name="P:Web.ViewModels.HomeViewModel.protfolioItems">
+            <summary>
+            Gets or sets the protfolioItems.
+            </summary>
+        </member>
+    </members>
+</doc>

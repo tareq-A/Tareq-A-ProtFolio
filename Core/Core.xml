@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Core</name>
+    </assembly>
+    <members>
+        <member name="T:Core.Entities.Address">
+            <summary>
+            Defines the <see cref="T:Core.Entities.Address" />.
+            </summary>
+        </member>
+        <member name="P:Core.Entities.Address.City">
+            <summary>
+            Gets or sets the City.
+            </summary>
+        </member>
+        <member name="P:Core.Entities.Address.Street">
+            <summary>
+            Gets or sets the Street.
+            </summary>
+        </member>
+        <member name="P:Core.Entities.Address.Number">
+            <summary>
+            Gets or sets the Number.
+            </summary>
+        </member>
+        <member name="T:Core.Entities.EntityBase">
+            <summary>
+            Defines the <see cref="T:Core.Entities.EntityBase" />.
+            </summary>
+        </member>
+        <member name="P:Core.Entities.EntityBase.ID">
+            <summary>
+            Gets or sets the ID.
+            </summary>
+        </member>
+        <member name="T:Core.Entities.Owner">
+            <summary>
+            Defines the <see cref="T:Core.Entities.Owner" />.
+            </summary>
+        </member>
+        <member name="P:Core.Entities.Owner.FullName">
+            <summary>
+            Gets or sets the FullName.
+            </summary>
+        </member>
+        <member name="P:Core.Entities.Owner.Profil">
+            <summary>
+            Gets or sets the Profil.
+            </summary>
+        </member>
+        <member name="P:Core.Entities.Owner.Avater">
+            <summary>
+            Gets or sets the Avater.
+            </summary>
+        </member>
+        <member name="P:Core.Entities.Owner.Address">
+            <summary>
+            Gets or sets the Address.
+            </summary>
+        </member>
+        <member name="T:Core.Entities.ProtfolioItem">
+            <summary>
+            Defines the <see cref="T:Core.Entities.ProtfolioItem" />.
+            </summary>
+        </member>
+        <member name="P:Core.Entities.ProtfolioItem.ProjectName">
+            <summary>
+            Gets or sets the ProjectName.
+            </summary>
+        </member>
+        <member name="P:Core.Entities.ProtfolioItem.Description">
+            <summary>
+            Gets or sets the Description.
+            </summary>
+        </member>
+        <member name="P:Core.Entities.ProtfolioItem.ImageUrl">
+            <summary>
+            Gets or sets the ImageUrl.
+            </summary>
+        </member>
+        <member name="T:Core.Interfaces.IGenericRepository`1">
+            <summary>
+            Defines the <see cref="T:Core.Interfaces.IGenericRepository`1" />.
+            </summary>
+            <typeparam name="T">.</typeparam>
+        </member>
+        <member name="M:Core.Interfaces.IGenericRepository`1.GetAll">
+            <summary>
+            The GetAll.
+            </summary>
+            <returns>The <see cref="T:System.Collections.Generic.IEnumerable`1"/>.</returns>
+        </member>
+        <member name="M:Core.Interfaces.IGenericRepository`1.GetByID(System.Object)">
+            <summary>
+            The GetByID.
+            </summary>
+            <param name="id">The id<see cref="T:System.Object"/>.</param>
+            <returns>The <see cref="!:T"/>.</returns>
+        </member>
+        <member name="M:Core.Interfaces.IGenericRepository`1.Insert(`0)">
+            <summary>
+            The Insert.
+            </summary>
+            <param name="entity">The entity<see cref="!:T"/>.</param>
+        </member>
+        <member name="M:Core.Interfaces.IGenericRepository`1.Update(`0)">
+            <summary>
+            The Update.
+            </summary>
+            <param name="entity">The entity<see cref="!:T"/>.</param>
+        </member>
+        <member name="M:Core.Interfaces.IGenericRepository`1.Delete(System.Object)">
+            <summary>
+            The Delete.
+            </summary>
+            <param name="id">The id<see cref="T:System.Object"/>.</param>
+        </member>
+        <member name="T:Core.Interfaces.IUnitOfWork`1">
+            <summary>
+            Defines the <see cref="T:Core.Interfaces.IUnitOfWork`1" />.
+            </summary>
+            <typeparam name="T">.</typeparam>
+        </member>
+        <member name="P:Core.Interfaces.IUnitOfWork`1.Entity">
+            <summary>
+            Gets the Entity.
+            </summary>
+        </member>
+        <member name="M:Core.Interfaces.IUnitOfWork`1.Save">
+            <summary>
+            The Save.
+            </summary>
+        </member>
+    </members>
+</doc>
